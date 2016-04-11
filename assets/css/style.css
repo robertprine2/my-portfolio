@@ -32,8 +32,8 @@ body {
 
 h2 {
 	font-size: 40px;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-bottom: 50px;
+	margin-top: 50px;
 }
 
 p {
@@ -159,10 +159,18 @@ nav a:hover {
 
 /* resizing robertpowerpuff image */
 
-
-
 img {
 	max-height: 610px;
 	margin-bottom: 30px;
 }
 
+/* Skills */
+
+/*this is not centering the graph*/
+
+.centered-object {
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	margin-bottom: 30px;
+}
