@@ -33,10 +33,11 @@ body {
 h2 {
 	font-size: 40px;
 	margin-bottom: 30px;
+	margin-top: 30px;
 }
 
 p {
-	font-size: 20px;
+	font-size: 25px;
 	margin-bottom: 20px;
 	line-height: 1.2;
 }
@@ -127,15 +128,38 @@ nav a:hover {
 
 /* Jumbotron */
 
-.background-pic {
-	background-image: url("../images/robert.jpg");
+.Jumbotron {
+	background: url("../images/robertpic.jpg");
 	height: 1000px;
 	width: 100%;
 }
 
+.Jumbotron h1 {
+	font-size: 60px;
+	color: black;
+	position: relative;
+	top: 300px;
+	font-weight: 900;
+}
+
+.Jumbotron p {
+	font-size: 30px;
+	color: black;
+	position: relative;
+	top: 350px;
+	font-weight: 800;
+}
+
+.Jumbotron .btn {
+	font-size: 30px;
+}
+
+
 /* About Me */
 
 /* resizing robertpowerpuff image */
+
+
 
 img {
 	max-height: 610px;
