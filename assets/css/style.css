@@ -25,7 +25,7 @@ em, i, em *, i * {
 
 body {
 	background: black;
-	font-family: 'Calligraffitti', cursive;
+	font-family: 'Indie Flower', cursive;
 	padding-top: 97px;
 }
 
@@ -41,10 +41,15 @@ body {
 	margin-bottom: 30px;
 }
 
+.rowmargin {
+	margin-top: 50px;
+}
+
 h2 {
 	font-size: 40px;
 	margin-bottom: 50px;
 	margin-top: 50px;
+	font-family: 'Cinzel', serif;
 }
 
 p {
@@ -57,44 +62,62 @@ p {
     border-radius: 50%;
 }
 
-.button {
- 
-	/*basic styles*/
+.button-black {
 	width: 250px;  
 	height: 50px;  
 	color: #d1d2d3;
 	text-align: center;   
 	line-height: 50px;
 	background: black;
-
-	/*border styles*/
-	border-top: solid 2px #d1d2d3;
-	border-bottom: solid 2px #d1d2d3;
-	border-right: solid 2px #d1d2d3;
-	border-left: solid 2px #d1d2d3;
+	border: solid 2px #d1d2d3;
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
 	border-radius: 30px;
- 
 }
  
  
-.button p {
+.button-black p {
 	 font-size: 25px;
 	 line-height: 50px;
 }
  
-.button a {
+.button-black a {
 	 text-decoration: none;
 	 color: white;
 }
  
-.button:hover {
-	 border-top: solid 2px white;
-	 border-bottom: solid 2px white;
-	 border-right: solid 2px white;
-	 border-left: solid 2px white;
+.button-black:hover {
+	 border: solid 2px white;
 	 color: white;
+	 cursor: pointer;
+}
+
+.button-white{
+	width: 250px;  
+	height: 50px;  
+	color: #908d8d;
+	text-align: center;   
+	line-height: 50px;
+	background: white;
+	border: solid 2px #908d8d;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.button-white p {
+	 font-size: 25px;
+	 line-height: 50px;
+}
+ 
+.button-white a {
+	 text-decoration: none;
+	 color: black;
+}
+ 
+.button-white:hover {
+	 border: solid 2px black;
+	 color: black;
 	 cursor: pointer;
 }
 
@@ -120,6 +143,7 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	font-family: 'Cinzel', serif;
 }
 
 nav li {
