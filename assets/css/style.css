@@ -100,6 +100,11 @@ p {
 
 /* Navigation Bar */
 
+#initials {
+	height: 40px;
+	width: 75px;
+}
+
 nav {
 	position: fixed;
     left: 0;
@@ -124,7 +129,7 @@ nav li {
 }
 
 nav a {
-	font-size: 25px;
+	font-size: 20px;
 	color: black;
 	text-decoration: none;  
 }
