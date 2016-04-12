@@ -26,7 +26,7 @@ em, i, em *, i * {
 body {
 	background: black;
 	font-family: 'Indie Flower', cursive;
-	padding-top: 97px;
+	padding-top: 60px;
 }
 
 .black-bkgd {
@@ -115,10 +115,10 @@ p {
 	 color: black;
 }
  
-.button-white:hover {
-	 border: solid 2px black;
-	 color: black;
-	 cursor: pointer;
+ .button-white:hover {
+	border: solid 2px black;
+	color: black;
+	cursor: pointer;
 }
 
 /* Navigation Bar */
@@ -136,6 +136,8 @@ nav {
     z-index: 99;
     background: white;
     opacity: .95;
+    overflow: hidden;
+    height: 60px;
    }
 
 ul {
@@ -192,6 +194,8 @@ nav a:hover {
 
 .Jumbotron .btn {
 	font-size: 30px;
+	position: relative;
+	top:100px;
 }
 
 
