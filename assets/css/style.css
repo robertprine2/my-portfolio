@@ -266,6 +266,14 @@ img {
 
 /* Contact Me */
 
+form {
+	font-size: 25px;
+}
+
+.rounded {
+	border-radius: 20%;
+}
+
 .social {
 	width: 62px;
 	height: 62px;
