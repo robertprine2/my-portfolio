@@ -123,9 +123,14 @@ p {
 
 /* Navigation Bar */
 
-#initials {
-	height: 40px;
+nav li a.initials {
+	height: 60px;
 	width: 75px;
+	background: url("../images/initials.png");
+	background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
 }
 
 nav {
@@ -157,15 +162,25 @@ nav li {
 nav a {
 	font-size: 20px;
 	color: black;
+	background: white;
 	text-decoration: none;  
 }
 
 nav li:hover {
-	border-bottom: solid 3px white;
+	border-bottom: solid 3px teal;
 }
 
-nav a:hover {
-	color: white;	
+.nav li a:hover {
+	color: teal;
+	background-color: white;
+}
+
+.initials:hover {
+	background: url("../images/initialsTeal.png");
+	background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
 }
 
 /* Jumbotron */
