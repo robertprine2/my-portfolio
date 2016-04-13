@@ -187,7 +187,11 @@ nav li:hover {
 
 .Jumbotron {
 	background: url("../images/robertpic.jpg");
-	height: 1000px;
+	background-size: 100% 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: auto;
+	height: 600px;
 	width: 100%;
 }
 
@@ -195,24 +199,37 @@ nav li:hover {
 	font-size: 60px;
 	color: black;
 	position: relative;
-	top: 300px;
+	top: 150px;
 	font-weight: 900;
+	width: 50%;
 }
 
 .Jumbotron p {
 	font-size: 30px;
 	color: black;
 	position: relative;
-	top: 350px;
+	top: 200px;
 	font-weight: 800;
+	width: 50%;
 }
 
 .Jumbotron .btn {
 	font-size: 30px;
 	position: relative;
-	top:100px;
+	top:50px;
 }
 
+.Jumbotron p a.learn:hover {
+	background-color: teal;
+}
+
+.Jumbotron p a.learn {
+	background-color: black;
+}
+
+.Jumbotron p a.learn:focus {
+	background-color: teal;
+}
 
 /* About Me */
 
