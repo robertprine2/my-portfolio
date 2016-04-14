@@ -342,12 +342,24 @@ form {
 
 @media screen and (max-width:640px) {
 
+.work h3 {
+	width: 90%;
+}
+
 }
 
 @media screen and (min-width:641px) and (max-width:768px){
 
+.work h3 {
+	width: 90%;
+}
+
 }
 
 @media screen and (min-width: 769px) and (max-width:980px){
+
+.work h3 {
+	width: 90%;
+}
 
 }
