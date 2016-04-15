@@ -251,11 +251,10 @@ h4 {
 /* Portfolio */
 
 .work {
-	width: 45%;
-	
 	position: relative;
-	margin: 20px 0 25px;
+	margin: 20px 0px 25px 0px;
 	height: 250px;
+	width: 45%;
 }
 
 .work:nth-child(even) {
@@ -279,7 +278,7 @@ h4 {
 	color: #fff;
 	text-align: center;
 	position: absolute;
-	padding: 15px;
+	padding: 15px 0px 15px 0px;
 	width: 94.5%;
 	bottom: 55px;
 	line-height: 30px;
