@@ -232,6 +232,11 @@ img {
 	margin-bottom: 30px;
 }
 
+.positioning {
+	margin: auto;
+	float: none;
+}
+
 .unfinished {
 	color: lightgrey;
 }
