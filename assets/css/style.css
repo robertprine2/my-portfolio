@@ -141,7 +141,7 @@ nav li a.initials {
 }
 
 .Jumbotron h1 {
-	font-size: 60px;
+	font-size: 50px;
 	color: black;
 	position: relative;
 	top: 150px;
@@ -150,7 +150,7 @@ nav li a.initials {
 }
 
 .Jumbotron p {
-	font-size: 30px;
+	font-size: 20px;
 	color: black;
 	position: relative;
 	top: 200px;
@@ -187,7 +187,7 @@ img {
 
 #powerPuff {
 	width: 100%;
-	
+
 }
 
 #contact-link {
