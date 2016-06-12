@@ -265,6 +265,7 @@ h4 {
 	margin: 20px 0px 25px 0px;
 	height: 250px;
 	width: 45%;
+	overflow: hidden;
 }
 
 .work:nth-child(even) {
@@ -274,7 +275,6 @@ h4 {
 .work img {
 	width: 100%;
 	border: none;
-	margin: 20px;
 	height: 200px;
     -moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
@@ -292,8 +292,6 @@ h4 {
 	width: 94.5%;
 	bottom: 55px;
 	line-height: 30px;
-	margin: 20px;
-	margin-bottom: 0;
 	font-weight: 300;
 }
 
@@ -306,6 +304,15 @@ h4 {
      transform:scale(1.5);
      z-index: +10;
 }
+
+.slide {
+	background-color: black;
+	color: white;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
 
 /* Contact Me */
 
@@ -385,7 +392,9 @@ form {
 
 }
 
-@media screen and (min-width: 769px) and (max-width:980px){
+@media screen and (min-width: 769px) and (max-width:992px){
+
+
 
 .work h3 {
 	width: 90%;
