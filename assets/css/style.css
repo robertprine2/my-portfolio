@@ -316,13 +316,17 @@ h4 {
 }
 
 .slide {
-	background-color: white;
-	color: black;
+	background-color: rgba(74, 170, 165, 0.7);
+	color: white;
 	position: relative;
 	top: -34px;
 	height: 200px;
 	width: 100%;
+	padding: 20px;
+	text-align: center;
 }
+
+
 
 
 /* Contact Me */
