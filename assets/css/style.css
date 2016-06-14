@@ -64,6 +64,10 @@ p {
 
 /* Navigation Bar */
 
+.hidden {
+	display: none;
+}
+
 nav {
 	position: fixed;
     left: 0;
@@ -412,8 +416,12 @@ form {
 
 @media screen and (max-width:663px) {
 
-	li.hideNav {
+	.hideNav {
 		display: none;
+	}
+
+	.hidden {
+		display: block!important;
 	}
 
 }
