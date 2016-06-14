@@ -8,9 +8,9 @@ $(document).ready(function(){
 		hoverPort: function() {
 
 			$(".port").hover(function() {
-				$(".slide").stop().animate({"top" : "-110px"});
+				$(this).next(".slide").stop().animate({"top" : "-110px"});
 			}, function() {
-				$(".slide").stop().animate({"top" : "-34"});
+				$(this).next(".slide").stop().animate({"top" : "-34"});
 			});
 
 		}, // end of hoverPort function
