@@ -272,7 +272,7 @@ h4 {
 
 /* Portfolio */
 
-.work {
+/*.work {
 	position: relative;
 	margin: 20px 0px 25px 0px;
 	height: 250px;
@@ -315,7 +315,7 @@ h4 {
     -o-transform:scale(1.5); 
      transform:scale(1.5);
      z-index: +10;
-}
+}*/
 
 .high {
 	height: 200px;
@@ -410,28 +410,22 @@ form {
 
 /* Media Queries */
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:663px) {
 
-.work h3 {
-	width: 90%;
+	li.hideNav {
+		display: none;
+	}
+
 }
 
-}
+@media screen and (min-width:664px) and (max-width:768px){
 
-@media screen and (min-width:641px) and (max-width:768px){
-
-.work h3 {
-	width: 90%;
-}
+	
 
 }
 
 @media screen and (min-width: 769px) and (max-width:992px){
 
-
-
-.work h3 {
-	width: 90%;
-}
+	
 
 }
