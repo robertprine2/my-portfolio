@@ -131,6 +131,17 @@ nav li a.initials {
 /* Jumbotron */
 
 .Jumbotron {
+	
+	height: 800px;
+	background: url("../images/robertpic.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+
+/*.Jumbotron {
 	background: url("../images/robertpic.jpg");
 	background-size: 100% 600px;
 	background-repeat: no-repeat;
@@ -138,7 +149,7 @@ nav li a.initials {
 	margin: auto;
 	height: 600px;
 	width: 100%;
-}
+}*/
 
 .Jumbotron h1 {
 	font-size: 50px;
@@ -181,7 +192,8 @@ nav li a.initials {
 /* About Me */
 
 img {
-	max-height: 610px;
+	height: 100%;
+	width: 100%;
 	margin-bottom: 30px;
 }
 
