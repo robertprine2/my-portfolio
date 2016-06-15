@@ -64,8 +64,31 @@ p {
 
 /* Navigation Bar */
 
-.hidden {
+.hiddenNav {
 	display: none;
+}
+
+li.alignRight {
+	float: right;
+}
+
+.hamburger {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.hamburger:hover {
+	color: #4aaaa5;
+	cursor: pointer;
+}
+
+#myDropdown {
+	display: none;
+}
+
+div a.disappear {
+	text-align: left;
+	float: right;
 }
 
 nav {
@@ -76,7 +99,6 @@ nav {
     z-index: 99;
     background: white;
     opacity: .95;
-    overflow: hidden;
     height: 60px;
    }
 
@@ -136,12 +158,13 @@ nav li a.initials {
 
 .Jumbotron {
 	
-	height: 800px;
+	height: 900px;
 	background: url("../images/robertpic.jpg") no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	background-position-y: 60px;
 }
 
 
@@ -199,11 +222,6 @@ img {
 	height: 100%;
 	width: 100%;
 	margin-bottom: 30px;
-}
-
-#powerPuff {
-	width: 100%;
-
 }
 
 #contact-link {
@@ -420,8 +438,8 @@ form {
 		display: none;
 	}
 
-	.hidden {
-		display: block!important;
+	.hiddenNav {
+		display: block;
 	}
 
 }
