@@ -397,6 +397,11 @@ form {
 	-moz-border-radius: 30px;
 	-webkit-border-radius: 30px;
 	border-radius: 30px;
+	margin-bottom: 10px;
+}
+
+button:focus {
+	outline:0;
 }
 
 .button-white p {
